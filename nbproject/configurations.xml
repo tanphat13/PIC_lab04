@@ -4,9 +4,13 @@
     <logicalFolder name="HeaderFiles"
                    displayName="Header Files"
                    projectFiles="true">
-      <itemPath>mcc.h</itemPath>
-      <itemPath>LCD.h</itemPath>
+      <itemPath>button.h</itemPath>
       <itemPath>clock.h</itemPath>
+      <itemPath>interrupt_manager.h</itemPath>
+      <itemPath>LCD.h</itemPath>
+      <itemPath>mcc.h</itemPath>
+      <itemPath>Timer0.h</itemPath>
+      <itemPath>link_list.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -15,6 +19,14 @@
     <logicalFolder name="SourceFiles"
                    displayName="Source Files"
                    projectFiles="true">
+      <itemPath>button.c</itemPath>
+      <itemPath>clock.c</itemPath>
+      <itemPath>interrupt_manager.c</itemPath>
+      <itemPath>LCD.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>mcc.c</itemPath>
+      <itemPath>timer0.c</itemPath>
+      <itemPath>link_list.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

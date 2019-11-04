@@ -2,15 +2,12 @@
  * File:   LCD.h
  * Author: phat
  *
- * Created on October 28, 2019, 9:33 AM
+ * Created on September 28, 2019, 1:18 PM
  */
 
 #ifndef LCD_H
 #define	LCD_H
 
-#ifdef	__cplusplus
-extern "C" {
-#endif
 #include "mcc.h"
 
 #define LCD_delay           0                                // ~5mS
@@ -88,10 +85,6 @@ void LCDPutChar(unsigned char); // Writes character to LCD at current cursor pos
 void LCDPutInst(unsigned char); // Writes character to LCD instruction register
 void LCDPutInst2(unsigned char);
 void LCDPutStr(const char *); // Writes string to LCD at current cursor position
-
-#ifdef	__cplusplus
-}
-#endif
 
 #endif	/* LCD_H */
 

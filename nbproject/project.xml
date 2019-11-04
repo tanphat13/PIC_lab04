@@ -6,7 +6,7 @@
             <name>lab4</name>
             <creation-uuid>848753d4-2733-423f-8b87-ad4b10b5e524</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions/>
+            <c-extensions>c</c-extensions>
             <cpp-extensions/>
             <header-extensions>h</header-extensions>
             <asminc-extensions/>
