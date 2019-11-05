@@ -3,7 +3,7 @@
 void SYSTEM_Initialize(void) {
     LCDInit();
     OSCCILATOR_Initialize();
-    TIMER0_Initialize();
+    TIMER1_Initialize();
     Button_Initialize();
 }
 

@@ -9,8 +9,8 @@
       <itemPath>interrupt_manager.h</itemPath>
       <itemPath>LCD.h</itemPath>
       <itemPath>mcc.h</itemPath>
-      <itemPath>Timer0.h</itemPath>
       <itemPath>link_list.h</itemPath>
+      <itemPath>Timer1.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -25,8 +25,7 @@
       <itemPath>LCD.c</itemPath>
       <itemPath>main.c</itemPath>
       <itemPath>mcc.c</itemPath>
-      <itemPath>timer0.c</itemPath>
-      <itemPath>link_list.c</itemPath>
+      <itemPath>Timer1.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"

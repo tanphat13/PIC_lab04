@@ -13,8 +13,17 @@ extern "C"
 {
 #endif
 
-
-
+#include "mcc.h"
+   class Node {
+   public:
+      register_data pTask;
+      Node *link;
+      
+      Node(register_data pTask) {
+	 this->pTask = pTask;
+	 this->link = NULL;
+      }
+   };
 
 #ifdef	__cplusplus
 }

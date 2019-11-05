@@ -28,11 +28,12 @@
 #include "interrupt_manager.h"
 #include "button.h"
 #include "LCD.h"
-#include "Timer0.h"
+#include "Timer1.h"
 #include "clock.h"
+#include "link_list.h"
 
-typedef void(*timer_callback_t)();
 typedef unsigned long int timestamp_t;
+typedef unsigned long int timer_callback_t;
 
 //#define _XTAL_FREQ  1000000
 #define _XTAL_FREQ  10000000

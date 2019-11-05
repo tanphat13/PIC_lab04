@@ -5,11 +5,11 @@
  * Created on September 28, 2019, 2:19 PM
  */
 
-#ifndef TIMER0_H
-#define	TIMER0_H
+#ifndef TIMER1_H
+#define	TIMER1_H
 #include "mcc.h"
 
-void TIMER0_Initialize(void);
+void TIMER1_Initialize(void);
 
 #endif	/* TIMER0_H */
 
